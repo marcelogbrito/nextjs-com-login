@@ -10,8 +10,13 @@ const Home: React.FC = () => {
       </Head>
 
 
-        <h1>Estrutura de aplicação Next.JS</h1>
-        <p>Estrutura básica inicial de aplicação<optgroup></optgroup></p>
+        <Container>
+          <label>Usuario</label>
+          <input type="text" />
+          <label>Senha</label>
+          <input type="password" />
+          <button>Enviar</button>
+          </Container>
 
     </Container>
   )
